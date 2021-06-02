@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.conteiner {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.btn-yellow {
+  color: #000;
+  text-decoration: none;
+  background: #ffd429;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  font-weight: 900;
+  transition: all 0.3s;
+}
+
+.btn-yellow:hover {
+  box-shadow: 4px 4px 25px 6px rgba(34, 60, 80, 0.2);
+  background: #ffcc00;
+}
+
+.font-big {
+  font-size: 59px;
+}
+
+.header {
+  background-color: #4ab8f8;
+  color: #fff;
+  padding-bottom: 210px;
+}
+
+.header__logo {
+  margin-top: 60px;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.header__block {
+  padding-right: 50px;
+  flex: 0 0 50%;
+}
+
+.header__title {
+  font-size: 37px;
+}
+
+.header__description {
+  padding: 40px 0;
+  max-width: 320px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.header__button {
+  padding: 20px 30px;
+}
+
+.advantages {
+  padding: 100px 0;
+}
+
+.advantages__title {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 30px;
+}
+
+.advantages-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages__item {
+  text-align: center;
+  max-width: 289px;
+}
+
+.advantages__subtitle {
+  font-size: 19px;
+}
+
+.advantages__description {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.dream {
+  background: #ecf3f8;
+  padding: 100px 0;
+}
+
+.dream__title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.dream__form {
+  margin: auto;
+  text-align: center;
+}
+
+.form__input {
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+  padding: 10px;
+  border: 1px solid #bbbbbb;
+  width: 315px;
+  outline: none;
+  outline: #1e4b9e;
+}
+
+.form__input:focus, .form__textarea:focus {
+  background-color: #4ab8f862;
+}
+
+.form__textarea {
+  width: 315px;
+  display: block;
+  margin: auto;
+  border: 1px solid #bbbbbb;
+  padding: 10px;
+  resize: none;
+  outline: none;
+}
+
+.dream__button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 20px 87px;
+  margin-top: 25px;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #164d7a;
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    padding-bottom: 100px;
+  }
+  .header__content {
+    display: block;
+  }
+  .header__block {
+    text-align: center;
+    padding-right: 0;
+  }
+  .header__description {
+    max-width: none;
+  }
+  .header__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .header__button {
+    margin: auto;
+  }
+  .advantages-inner {
+    display: block;
+    text-align: center;
+  }
+  .advantages__item {
+    margin: 35px auto;
+    max-width: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    padding-bottom: 50px;
+  }
+  .header__title {
+    font-size: 27px;
+  }
+  .font-big {
+    font-size: 49px;
+  }
+  .advantages {
+    padding: 30px 0;
+  }
+  .advantages__title {
+    margin-bottom: 50px;
+  }
+  .dream {
+    background: #ecf3f8;
+    padding: 30px 0;
+  }
+  .form__input {
+    width: 100%;
+  }
+  .form__textarea {
+    width: 100%;
+  }
+  .dream__button {
+    display: block;
+    padding: 20px 17px;
+    width: 100%;
+  }
+}
