@@ -7,7 +7,7 @@ $(window).scroll(function () {
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 1000) {
+    if (imagePos < topOfWindow + 850) {
       $(this).addClass("fadeInLeft");
     }
   });
@@ -18,7 +18,7 @@ $(window).scroll(function () {
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 1000) {
+    if (imagePos < topOfWindow + 850) {
       $(this).addClass("bounceInLeft");
     }
   });
@@ -29,7 +29,7 @@ $(window).scroll(function () {
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 1000) {
+    if (imagePos < topOfWindow + 850) {
       $(this).addClass("bounceInDown");
     }
   });
@@ -40,7 +40,7 @@ $(window).scroll(function () {
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 1000) {
+    if (imagePos < topOfWindow + 850) {
       $(this).addClass("bounceInRight");
     }
   });
@@ -54,7 +54,7 @@ $(window).scroll(function () {
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 1000) {
+    if (imagePos < topOfWindow + 850) {
       $(this).addClass("rollIn");
     }
   });
@@ -66,7 +66,7 @@ $(window).scroll(function () {
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 1000) {
+    if (imagePos < topOfWindow + 850) {
       $(this).addClass("fadeInLeftBig");
     }
   });
@@ -76,7 +76,7 @@ $(window).scroll(function () {
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 1000) {
+    if (imagePos < topOfWindow + 850) {
       $(this).addClass("fadeInRightBig");
     }
   });
@@ -86,7 +86,7 @@ $(window).scroll(function () {
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 1000) {
+    if (imagePos < topOfWindow + 850) {
       $(this).addClass("fadeInLeftBig");
     }
   });
@@ -96,7 +96,7 @@ $(window).scroll(function () {
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 1000) {
+    if (imagePos < topOfWindow + 850) {
       $(this).addClass("fadeInRightBig");
     }
   });
@@ -106,7 +106,7 @@ $(window).scroll(function () {
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 1000) {
+    if (imagePos < topOfWindow + 850) {
       $(this).addClass("heartBeat");
     }
   });
