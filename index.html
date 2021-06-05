@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -9,6 +9,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@300&family=Ubuntu:wght@400;700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
   <link rel="stylesheet" href="css/style.css">
   <title>Мой первый сайт </title>
 </head>
@@ -17,9 +19,9 @@
   <header class="header">
     <div class="conteiner">
       <div class="header-inner">
-        <img src="img/logo.png" alt="logo" class="header__logo">
+        <img src="img/logo.png" alt="logo" class="header__logo animated fadeInDown ">
         <div class=" header__content">
-          <div class="header__block">
+          <div class="header__block animated fadeInLeft">
             <h1 class="header__title">С помощью верстки
               я создам ту жизнь, о которой
               <span class="font-big">мечтаю!</span>
@@ -29,7 +31,7 @@
             <a href="#" class="header__button btn-yellow">Двигаться к мечте!</a>
           </div>
           <div>
-            <img src="img/head-img.png" alt="earth" class="header__img">
+            <img src="img/head-img.png" alt="earth" class="header__img animated fadeInRight  ">
           </div>
 
 
@@ -43,19 +45,19 @@
   </header>
   <section class="advantages">
     <div class="conteiner">
-      <h2 class="advantages__title">Что меня ждет впереди</h2>
+      <h2 class="advantages__title animated">Что меня ждет впереди</h2>
       <div class="advantages-inner">
-        <div class="advantages__item">
+        <div class="advantages__item item-one animated">
           <img src="img/icon1.jpeg" alt="icon" class="stepup__img">
           <h3 class="advantages__sub-title">Свободное время</h3>
           <p class="advantages__description">Мне нужно свободное время на семью и самое настоящее</p>
         </div>
-        <div class="advantages__item">
+        <div class="advantages__item item-two animated ">
           <img src="img/icon2.jpeg" alt="icon" class="stepup__img">
           <h3 class="advantages__sub-title">Яркие путешествия</h3>
           <p class="advantages__description">Работать откуда угодно - что может быть лучше?</p>
         </div>
-        <div class="advantages__item">
+        <div class="advantages__item item-three animated">
           <img src="img/icon3.jpeg" alt="icon" class="stepup__img">
           <h3 class="advantages__sub-title">Создание ценности</h3>
           <p class="advantages__description">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
@@ -66,14 +68,14 @@
 
   <section class="dream">
     <div class="conteiner">
-      <h2 class="dream__title">Форма заказа билета в будущее</h2>
-      <form action="#" class="dream__form form">
-        <input type="text" name="name" class="form__input" placeholder="Имя">
-        <input type="email" name="E-mail" class="form__input" placeholder="E-mail">
-        <input type="tel" name="phone" class="form__input" placeholder="Телефон">
-        <textarea name="place" class="form__textarea" cols="25" rows="1"
+      <h2 class="dream__title animated">Форма заказа билета в будущее</h2>
+      <form action="#" class="dream__form form  ">
+        <input type="text" name="name" class="form__input input-1 animated" placeholder="Имя">
+        <input type="email" name="E-mail" class="form__input input-2 animated" placeholder="E-mail">
+        <input type="tel" name="phone" class="form__input input-3 animated" placeholder="Телефон">
+        <textarea name="place" class="form__textarea animated" cols="25" rows="1"
           placeholder="Куда я полечу в ближайщие время?"></textarea>
-        <button type="submit" class="btn-yellow dream__button">Двигаться к мечте!</button>
+        <button type="submit" class="btn-yellow dream__button animated">Двигаться к мечте!</button>
       </form>
     </div>
 
@@ -81,9 +83,14 @@
 
   <footer class="footer">
     <div class="conteiner">
-      <p class="header__copyright">© Все мои мечты защищены моим трудолюбием</p>
+      <p class="footer__copyright ">© Все мои мечты защищены моим трудолюбием</p>
     </div>
   </footer>
+
+
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"> </script>
 
 </body>
 
