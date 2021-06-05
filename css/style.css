@@ -3,6 +3,7 @@
 }
 
 body {
+  overflow: hidden;
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
 }
